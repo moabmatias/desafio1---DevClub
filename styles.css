@@ -1,0 +1,102 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+    /*Aqui é outra forma de informar as margens esquerda, direita, superior e inferior*/
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 100%;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-signup {
+    background: #6FBF44;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.image-positive {
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-bottom: 150px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    letter-spacing: 0.6px;
+    width: 582px;
+    margin-bottom: 45px;
+    margin-left: 40px;
+}
+
+p {
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    width: 493px;
+    margin-bottom: 75px;
+    margin-left: 40px;
+}
+
+a {
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 932px) {
+    header {
+        display: none;
+    }
+
+    .link-header {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+    }
+    .button-signup {
+        width: 61px;
+        height: 18px;
+        margin: 6px;
+        margin: 20px;
+    }
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}
